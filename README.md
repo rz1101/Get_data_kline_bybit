@@ -5,9 +5,9 @@
 Установите необходимые зависимости:
 pip install requests pandas
 Скопируйте или клонируйте репозиторий:
-git clone https://github.com/yourusername/bybit-btcusdt-klines.git
+git clone https://github.com/razumpost/get_data_kline_bybit.git
 Перейдите в директорию проекта:
-cd bybit-btcusdt-klines
+cd get_data_kline_bybit
 Использование
 Пример использования:
 
