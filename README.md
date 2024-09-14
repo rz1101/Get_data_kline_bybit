@@ -13,7 +13,6 @@ git clone https://github.com/razumpost/get_data_kline_bybit.git
 cd get_data_kline_bybit
 
 
-Использование
 Пример использования:
 
 
