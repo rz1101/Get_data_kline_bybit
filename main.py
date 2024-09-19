@@ -23,7 +23,7 @@ def kline(symb, tf, start):
     for i in range(batch_count):
         batch_start = start_ds + i * batch_size*dtf
         batch_end = min(end_ds, batch_start + batch_size*dtf)
-        params = {'category': 'linear', "symbol": symb, "interval": tf, 'start': batch_start, 'end': batch_end}
+        params = {'category': 'inverse', "symbol": symb, "interval": tf, 'start': batch_start, 'end': batch_end}
         r = requests.get(URL, params=params)
         df = pd.DataFrame(r.json()['result']['list'])
         m = pd.DataFrame()
