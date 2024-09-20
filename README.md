@@ -7,7 +7,7 @@
 pip install requests pandas
 
 Скопируйте или клонируйте репозиторий:
-git clone https://github.com/razumpost/get_data_kline_bybit.git
+git clone https://github.com/rz1101/get_data_kline_bybit.git
 
 Перейдите в директорию проекта:
 cd get_data_kline_bybit
@@ -27,7 +27,7 @@ print(df.head())
 Этот проект распространяется под лицензией MIT. Смотрите файл LICENSE для деталей.
 
 Контакты
-Если у вас есть вопросы или предложения по улучшению, пожалуйста, обратитесь к @razumpost (https://github.com/razumpost).
+Если у вас есть вопросы или предложения по улучшению, пожалуйста, обратитесь к @rz1101 (https://github.com/rz1101).
 
 Вопросы и ответы
 Q: Какие параметры принимает функция kline? A: Функция принимает три аргумента: символ криптовалюты, временной интервал и начальную дату.
